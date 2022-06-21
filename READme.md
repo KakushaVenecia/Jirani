@@ -15,11 +15,13 @@ Jirani Corner is an application which allows you to be in the loop about everyth
 ## Features
 As a user of the application you will be able to:
 
-1. See all posted projects
-2. See each project's description, image, date submitted and title.
-3. Submit projects
-4. Create profile and edit profile
-5. Search for a project by title
+1. See all hoods
+2. Join a Hood
+3. Add a hood
+4. Edit profile
+5. Search for a Business by name
+6. Add a post within your hood
+7. See member count within your hood 
 
 ## BDD
 | Behavior            | Input                         | Output                        | 
