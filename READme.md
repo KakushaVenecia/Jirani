@@ -8,10 +8,11 @@ Jirani Corner is an application which allows you to be in the loop about everyth
 
 [Kakusha Venecia](https://github.com/KakushaVenecia/)
 
+## Admin 
+ Username:venecia
+ Password:12345
 
 ## Features
-
-
 As a user of the application you will be able to:
 
 1. See all posted projects
