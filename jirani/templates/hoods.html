@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{%block content%}
+<div class="container mt-4">
+    <a href="{% url 'new-hood' %}" class="btn btn-sm btn-info mb-2"> New Hood</a>
+    <div class="row">
+<div class="row row-cols-1 row-cols-md-3 g-4"> 
+     {% for hood in hoods %}
+    <div class="col">
+        
+        <div class="card h-100">
+            
+            <img src="{{ hood.hood_picture.url }}" class="card-img-top" alt="estate picture" />
+            <div class="card-body">
+                <h5 class="card-title">{{hood.name}}</h5>
+                <p class="card-text">
+                {{hood.description}}
+                </p>
+                 {% if not request.user.profile.neighbourhood %}
+                 <a href="{% url 'one-hood' hood.id %}" class="btn btn-primary btn-sm">Join Hood</a>
+                 {% endif %}
+            </div>
+        </div>
+        
+    </div>
+    {% endfor %}
+</div>
+{%endblock%}
