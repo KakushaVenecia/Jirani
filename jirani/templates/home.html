@@ -1,0 +1,32 @@
+{% extends 'base.html'%}
+{%load static%}
+{%block content%}
+<style>
+  .hero-image {
+    background-image: url("static/house.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+</style>
+<div class="container-fluid p-0 pb-0">
+  <div class="hero-image">
+      <div class="d-flex justify-content-center align-items-center h-50">
+        <div class="text-white">
+          <h3 class="mb-3" style="text-align: center; color: black;">Keep up to date with what is
+            going on in your
+            neighbourhood. </h3>
+          <h1 class="mb-3" style="text-align: center; color: black;">Jirani Corner</h1>
+          
+          <div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+{% include 'footer.html'%}
+{%endblock%}
